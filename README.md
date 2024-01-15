@@ -1,6 +1,6 @@
 ## komoproxy
 
-go编写的 socks5代理池轮切工具，支持ipv6代理，支持fofa采集代理，支持导入自定义的socks5代理文件。
+go编写的socks5代理池轮切工具，支持ipv6代理，支持fofa采集代理，支持导入自定义的socks5代理文件。代码暂不开源。
 
 ### 特点
 
@@ -13,7 +13,7 @@ go编写的 socks5代理池轮切工具，支持ipv6代理，支持fofa采集代
 ### 使用
 
 ```go
-.\kproxy.exe -h
+.\komoproxy.exe -h
 Usage 
   -listen string
         listen address (default "0.0.0.0:8899")
@@ -76,4 +76,5 @@ threads = 10
 
 ### 效果展示
 
-![image-20231225190354162](images/image-20231225190354162.png)
+![image-20240110143542001](images/image-20240110143542001.png)
+
